@@ -1,8 +1,8 @@
 
 let testNum1 = 16;
 let testNum2 = 14;
-let testResult1 = true;
-let testResult2 = false;
+let expectedResult1 = true;
+let expectedResult2 = false;
 
 function IsPerfectSquare(number){
   if(Number(number) == 1)return true;
@@ -14,5 +14,5 @@ function IsPerfectSquare(number){
   return false;
 }
 
-console.log(IsPerfectSquare(testNum1) === testResult1);
-console.log(IsPerfectSquare(testNum2) === testResult2);
+console.log(IsPerfectSquare(testNum1) === expectedResult1);
+console.log(IsPerfectSquare(testNum2) === expectedResult2);

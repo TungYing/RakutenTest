@@ -1,9 +1,9 @@
 let testString = 'hello';
-let expectString = 'olleh';
+let expectedString = 'olleh';
 
 String.prototype.reverse=function(){
   return this.split("").reverse().join("");
 }
 
-console.log(testString.reverse() === expectString);
+console.log(testString.reverse() === expectedString);
 
